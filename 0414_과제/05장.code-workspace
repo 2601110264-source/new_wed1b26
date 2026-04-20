@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "05장"
+	},
+	{
+		"path": "06장"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "06장"
+  }
+}

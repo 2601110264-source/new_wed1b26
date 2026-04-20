@@ -1,86 +1,57 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-body,
-table {
-  font-family: "Noto Sans KR", sans-serif;
-  background-color: rgb(31, 35, 49);
-  background-color: #f3f3f3;
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Diphylleia&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@900&display=swap");
+
+body {
+  background-image: url(../images/도화지.jpg);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
 }
 
-title,
+header {
+  width: 1240px;
+  margin: 0 auto 44px;
+  padding: 20px 0;
+}
+
+header h1 img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
 h1 {
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 18px;
-  border: 5px solid #11041e;
-  border-radius: 50px;
-  padding: 20px 0;
-  margin: 20px auto;
-  width: 300px;
   text-align: center;
+  padding: 20px 0 16px;
+}
+header nav ul {
+  display: flex;
 }
 
-h2,
-h3 {
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  background-color: #90dfc6;
-  padding: 10px 0;
-  margin: 20px auto;
-  width: 500px;
-  text-align: center;
+nav > ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-p,
-ul {
-  text-align: center;
-  margin-bottom: 20px;
+
+figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+flex-wrap: nowrap;
 }
 
-img {
-  border-radius: 60px;
+figure img{
+  width: 200px;
+  height: auto;
+}
+
+.side-banner {
+  width: 150px;
+  height: auto;
+  display: block;
   margin: 10px auto;
-  border: 5px solid #000000;
-  display: block;
-}
-
-a {
-  background-color: #4a9c82;
-  display: block;
-  padding: 20px 0;
-  border-radius: 40px;
-  color: #ffffff;
-  text-align: center;
-  width: 500px;
-  margin: 20px auto;
-}
-
-ul {
-  width: 300px;
-  margin: 0 auto;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
-th {
-  font-weight: 500;
-  color: #102624;
-}
-
-td {
-  font-weight: 350;
-}
-
-table {
-  background-color: #d1f5ea;
-  padding: 20px 0;
-  margin: 20px auto;
-  width: 900px;
-  text-align: center;
+  border-radius: 10px;
 }
