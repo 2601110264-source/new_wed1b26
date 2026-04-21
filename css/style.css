@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 body {
-  background-image: url(../images/bg.png);
+  background-image: url(../images/도화지.jpg);
   font-size: 16px;
   font-family: "Noto Sans KR", sans-serif;
   color: #333;
@@ -38,7 +38,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  text-decoration: underline double;
+  text-decoration: underline;
 }
 
 figure img {
@@ -163,10 +163,24 @@ article section {
   margin-bottom: 50px;
 }
 
+article img {
+  width: auto;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 footer {
   background-color: #000000;
   color: #fff;
   text-align: center;
   padding: 14px 10px 5px;
   margin-bottom: auto;
+}
+
+.poster {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
 }
