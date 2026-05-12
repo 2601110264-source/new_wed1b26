@@ -114,6 +114,46 @@
         display: flex;
         transform: translateX(-50%);
       }
+
+      .thumb li {
+        list-style: none;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: .3s;
+      }
+
+      .thumb li: :hover {
+        transform: translateY(-15px);
+      }
+
+      .thumb li img {
+        max-width: 60px;
+      }
+
+      .sci {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .sci li {
+        list-style: none;
+      }
+
+      .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+        background-color: #017143;
+        clip-path: circle(600px at right 800px);
+      }
+
     </style>
   </head>
   <body>
